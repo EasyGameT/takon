@@ -10,3 +10,6 @@ members = [
 ]
 
 [dependencies]
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+winit = "0.30.5"
